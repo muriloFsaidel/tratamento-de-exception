@@ -60,8 +60,8 @@ git clone https://github.com/devsuperior/sds1-wmazoni
 - POST
 	- http://localhost:8080/songs
 	- Body
-	- {"name": "Miss you everyday", "songYear": 2013,"artist": "Lenny Kravitz"}
-    - { "name": "Love", "songYear": 2028, "artist": "Lenny Kravitz"}
+	  - {"name": "Miss you everyday", "songYear": 2013,"artist": "Lenny Kravitz"}
+      - { "name": "Love", "songYear": 2028, "artist": "Lenny Kravitz"}
 
 # Autor
 
