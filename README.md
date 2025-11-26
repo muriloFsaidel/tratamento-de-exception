@@ -1,4 +1,4 @@
-# tratamento de exception
+# Tratamento de Exception
 
 ![GitHub Created At](https://img.shields.io/github/created-at/muriloFSaidel/tratamento-de-exception)
 ![GitHub commit activity](https://img.shields.io/github/commit-activity/t/muriloFSaidel/tratamento-de-exception)
@@ -15,23 +15,23 @@ Como simulação, criei este projeto Java com Springboot contendo músicas como 
 ## Postman requests
 
 ### Busca com Todas as Canções
-![Todas as canções](https://github.com/muriloFsaidel/assetss/raw/main/tde/allsongs.png)
+![Todas as canções](https://raw.githubusercontent.com/muriloFsaidel/assets/main/tde/allsongs.png)
 
 ### Busca uma Canção
-![Busca uma Canção](https://github.com/muriloFsaidel/assetss/raw/main/tde/asong.png)
+![Busca uma Canção](https://raw.githubusercontent.com/muriloFsaidel/assets/main/tde/asong.png)
 
 ### Busca uma Canção INVÁLIDA
-![Busca uma Canção INVÁLIDA](https://github.com/muriloFsaidel/assetss/raw/main/tde/aninvalidsong.png)
+![Busca uma Canção INVÁLIDA](https://raw.githubusercontent.com/muriloFsaidel/assets/main/tde/aninvalidsong.png)
 
 ### Inserindo uma Canção VÁLIDA
-![Inserindo uma Canção VÁLIDA](https://github.com/muriloFsaidel/assetss/raw/main/tde/insertingavalidsong.png)
-![Pós Inserindo uma Canção VÁLIDA](https://github.com/muriloFsaidel/assetss/raw/main/tde/afterinsertingavalidsong.png)
+![Inserindo uma Canção VÁLIDA](https://raw.githubusercontent.com/muriloFsaidel/assets/main/tde/insertingavalidsong.png)
+![Pós Inserindo uma Canção VÁLIDA](https://raw.githubusercontent.com/muriloFsaidel/assets/main/tde/afterinsertingavalidsong.png)
 
 ### Inserindo uma Canção INVÁLIDA
-![Inserindo uma Canção INVÁLIDA](https://github.com/muriloFsaidel/assetss/raw/main/tde/insertinganinvalidsong.png)
+![Inserindo uma Canção INVÁLIDA](https://raw.githubusercontent.com/muriloFsaidel/assets/main/tde/insertinganinvalidsong.png)
 
 ## Modelo conceitual
-![Modelo conceitual](https://github.com/muriloFsaidel/assetss/raw/main/tde/concept.png)
+![Modelo conceitual](https://raw.githubusercontent.com/muriloFsaidel/assets/main/tde/concept.png)
 # Tecnologias utilizadas
 ## Back end
 - Java
@@ -40,7 +40,7 @@ Como simulação, criei este projeto Java com Springboot contendo músicas como 
 - Maven
 
 ## Back end
-Pré-requisitos: Java 11
+Pré-requisitos: Java 21
 
 ````bash
 # clonar repositório
@@ -53,15 +53,15 @@ git clone https://github.com/devsuperior/sds1-wmazoni
 
 # No Postman
 - Clique em + para criar uma nova requisição
---GET
-	--http://localhost:8080/songs
-	--http://localhost:8080/songs/1
-	--http://localhost:8080/songs/8
---POST
-	--http://localhost:8080/songs
-	--Body
-	--{	"name": "Miss you everyday", "songYear": 2013,"artist": "Lenny Kravitz"}
-    --{ "name": "Love", "songYear": 2028, "artist": "Lenny Kravitz"}
+- GET
+	- http://localhost:8080/songs
+	- http://localhost:8080/songs/1
+	- http://localhost:8080/songs/8
+- POST
+	- http://localhost:8080/songs
+	- Body
+	- {"name": "Miss you everyday", "songYear": 2013,"artist": "Lenny Kravitz"}
+    - { "name": "Love", "songYear": 2028, "artist": "Lenny Kravitz"}
 
 # Autor
 
