@@ -63,6 +63,10 @@ git clone https://github.com/devsuperior/sds1-wmazoni
 	  - {"name": "Miss you everyday", "songYear": 2013,"artist": "Lenny Kravitz"}
       - { "name": "Love", "songYear": 2028, "artist": "Lenny Kravitz"}
 
+# Explicação
+
+https://www.youtube.com/watch?v=8HcTXKaFTGg
+
 # Autor
 
 Murilo F Saidel
